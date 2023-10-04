@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "tourguide-mobile",
-    "slug": "tourguide-mobile",
+    "name": "GUIDEMOROCCO",
+    "slug": "guide-morocco",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.guidemorocco.myappp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9259a3c3-cb44-41a4-a746-e47213a3a8d0"
+      }
     }
   }
 }
